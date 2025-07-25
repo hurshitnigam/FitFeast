@@ -13,7 +13,7 @@ const MobileLayout = () => {
 
                 <nav className="flex items-center justify-between h-20 px-6 pt-4">
                     <img
-                        src="/public/Images/fitfeast_logo-removebg-logo.png"
+                        src="/Images/fitfeast_logo-removebg-logo.png"
                         alt="FitFeast"
                         className="object-contain w-[120px] block"
                     />
@@ -49,14 +49,14 @@ const MobileLayout = () => {
 
                 <div className="absolute scale-75 top-72 left-56 transform -translate-x-56 -translate-y-16 -rotate-12">
                     <img
-                        src="/public/Images/image1x1.png"
+                        src="/Images/image1x1.png"
                         alt=""
                         className=""
                     />
                 </div>
                 <div className="absolute scale-75 top-72 left-56 transform -translate-x-2 -translate-y-16 rotate-12">
                     <img
-                        src="/public/Images/image2x1.png"
+                        src="/Images/image2x1.png"
                         alt=""
                         className=""
                     />

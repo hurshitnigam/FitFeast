@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
 const menuItems = [
-    { name: 'Products', image: '/public/Images/fitfeast_in-AmtoPmfinal.jpg' },
-    { name: 'Offers', image: '/public/Images/Offers.jpg' },
-    { name: 'Coming Soon', video: '/public/Videos/comingsoon.mp4' },
+    { name: 'Products', image: '/Images/fitfeast_in-AmtoPmfinal.jpg' },
+    { name: 'Offers', image: '/Images/Offers.jpg' },
+    { name: 'Coming Soon', video: '/Videos/comingsoon.mp4' },
     { name: 'Track Order', image: 'https://d4pmlgzenkweq.cloudfront.net/lfty9450i4rggxh9j7lt4x1qdxf5' },
     { name: 'About Us', image: 'https://fitfeast.in/cdn/shop/files/IMG_4109_2_copy.jpg?v=1741780063' },
 ];
@@ -16,7 +16,7 @@ const DesktopNav = ({ setIsOpen }) => {
     return (
         <div className="fixed inset-0 z-50 bg-[#eed0b9]">
             <div className="absolute -top-7 ml-5 z-20">
-                <img src="/public/Images/fitfeast_logo-removebg-preview.png" alt="logo" />
+                <img src="/Images/fitfeast_logo-removebg-preview.png" alt="logo" />
             </div>
             <div
                 onClick={() => setIsOpen(false)}

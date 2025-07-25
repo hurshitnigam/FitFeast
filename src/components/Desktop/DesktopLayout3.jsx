@@ -4,7 +4,7 @@ const DesktopLayout3 = () => {
     return (
         <div className="w-full py-30 px-20 bg-amber-50 text-black">
             <div className="flex">
-                <img src="/public/Images/peanutbutter.png" alt="" />
+                <img src="/Images/peanutbutter.png" alt="" />
                 <div className="w-[75%] ml-7 mt-10">
                     <h1 className="text-4xl font-extrabold p-5">FitFeast's Trust</h1>
                     <p className="text-lg p-5">
@@ -27,7 +27,7 @@ const DesktopLayout3 = () => {
                         Start your day with White Chocolate Peanut Butter, power through the evening with a Malai Kulfi Protein Shake, and end the night with a Brownie Protein Bar. An AM-to-PM protein fix that's tasty, satisfying, and packed with nutrition—because eating right should never feel like a chore.
                     </p>
                 </div>
-                <img src="/public/Images/image-2.png" alt="" />
+                <img src="/Images/image-2.png" alt="" />
             </div>
 
             <div className="py-18">
