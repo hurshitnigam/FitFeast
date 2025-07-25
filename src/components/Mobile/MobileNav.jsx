@@ -16,7 +16,7 @@ const MobileNav = ({ setIsOpen }) => {
 
             <div className="relative flex items-center justify-center p-10">
                 <img
-                    src="/src/Images/fitfeast_logo-removebg-logo.png"
+                    src="/public/Images/fitfeast_logo-removebg-logo.png"
                     alt="logo"
                 />
                 <div

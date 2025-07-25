@@ -16,7 +16,7 @@ const DesktopLayoutSticky = () => {
 
 
     return (
-        <section ref={sectionRef} className="h-[400vh] relative bg-[#222123]">
+        <section ref={sectionRef} className="h-[400vh] relative bg-[#1B2A47]">
             <div className="sticky top-0 h-screen flex items-center justify-center">
                 <div className="flex flex-col text-8xl uppercase font-[Antonio] font-bold text-center gap-10">
                     <motion.h1

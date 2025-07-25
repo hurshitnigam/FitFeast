@@ -2,8 +2,8 @@ import React from 'react'
 
 const AboutUs = () => {
     return (
-        <div className="bg-[#1B2A47] w-full min-h-screen flex flex-col items-center justify-center py-10 px-2">
-            <h1 className="text-4xl md:text-5xl text-center mb-6 font-bold text-[#F4D17F] drop-shadow">How FitFeast Was Born</h1>
+        <div className="bg-[#FEFBF6] w-full min-h-screen flex flex-col items-center justify-center py-10 px-2">
+            <h1 className="text-4xl md:text-5xl text-center mb-6 font-bold text-[#1B2A47] drop-shadow">How FitFeast Was Born</h1>
             <div className="flex justify-center items-center mb-8 w-full">
                 <img
                     src="https://startuparticle.com/wp-content/uploads/2025/03/fit-feast.jpg"
@@ -11,8 +11,8 @@ const AboutUs = () => {
                     className="rounded-2xl max-w-full max-h-[400px] shadow-2xl border-4 border-[#F4D17F]"
                 />
             </div>
-            <h2 className="text-2xl md:text-3xl text-center text-[#F4D17F] font-bold mb-6">A Journey from Struggle to Innovation</h2>
-            <div className="backdrop-blur-md bg-white/10 rounded-2xl shadow-xl max-w-2xl w-full px-6 py-8 text-[#f9e6d6] text-lg md:text-xl space-y-4">
+            <h2 className="text-2xl md:text-3xl text-center text-[#1B2A47] font-bold mb-6">A Journey from Struggle to Innovation</h2>
+            <div className="backdrop-blur-md bg-[#1B2A47] rounded-2xl shadow-xl max-w-2xl w-full px-6 py-8 text-[#f9e6d6] text-lg md:text-xl space-y-4">
                 <p>
                     When <span className="font-bold text-[#F4D17F]">Aditya Poddar</span> dropped from 90kg to 70kg in a year, he didn't just lose weight—he gained a deep understanding of why protein is essential. But as he dug deeper, he discovered a bigger problem:
                 </p>

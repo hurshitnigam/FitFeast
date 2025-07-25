@@ -12,7 +12,7 @@ const DesktopLayout = () => {
         <div className="relative flex h-screen w-full bg-[#F9E6D6] items-center">
             <nav className="w-full absolute flex top-0 justify-between">
                 <div className="logo">
-                    <img className="scale-75" src="/src/Images/fitfeast_logo-removebg-logo.png" alt="" />
+                    <img className="scale-75" src="/public/Images/fitfeast_logo-removebg-logo.png" alt="" />
                 </div>
                 <div className="p-2">
                     <i className="ri-equal-line text-3xl" onClick={() => setNavOpen(true)}></i>
@@ -45,7 +45,7 @@ const DesktopLayout = () => {
                 transition={{ duration: 2 }}
                 className="absolute img-1 flex-1 flex justify-center left-80 rotate-[20deg]"
             >
-                <img src="/src/Images/image1x1.png" alt="" />
+                <img src="/public/Images/image1x1.png" alt="" />
             </motion.div>
 
 
@@ -71,7 +71,7 @@ const DesktopLayout = () => {
                 transition={{ duration: 2 }}
                 className="absolute img-2 flex-1 flex justify-center right-80 -rotate-[20deg]"
             >
-                <img className="" src="/src/Images/image2x1.png" alt="" />
+                <img className="" src="/public/Images/image2x1.png" alt="" />
             </motion.div>
 
 
@@ -82,7 +82,7 @@ const DesktopLayout = () => {
                 transition={{ duration: 1.5, ease: "easeInOut" }}
                 className="absolute"
             >
-                <img className="" src="/src/Images/Nutty_Brownie___A_Dessert_You_Can_Feel_Good_About___Love_brownies_but_want_something_healthier_-removebg-preview-split.png" alt="" />
+                <img className="" src="/public/Images/Nutty_Brownie___A_Dessert_You_Can_Feel_Good_About___Love_brownies_but_want_something_healthier_-removebg-preview-split.png" alt="" />
             </motion.div>
 
 
@@ -92,7 +92,7 @@ const DesktopLayout = () => {
                 transition={{ duration: 1.5, ease: "easeInOut" }}
                 className="absolute"
             >
-                <img src="/src/Images/Snack_Smarter_with_FitFeast___Looking_for_a_guilt-free_snack_Meet_FitFeast_Cream___Onion_Protei-removebg-preview-split.png" alt="" />
+                <img src="/public/Images/Snack_Smarter_with_FitFeast___Looking_for_a_guilt-free_snack_Meet_FitFeast_Cream___Onion_Protei-removebg-preview-split.png" alt="" />
             </motion.div>
 
 
@@ -102,7 +102,7 @@ const DesktopLayout = () => {
                 transition={{ duration: 1.5, ease: "easeInOut" }}
                 className="absolute"
             >
-                <img src="/src/Images/Mocha_Boost___Your_Coffee-Chocolate_Fix____Love_coffee_and_chocolate_The_Mocha_Boost_Protein_Ba-removebg-preview-split.png" alt="" />
+                <img src="/public/Images/Mocha_Boost___Your_Coffee-Chocolate_Fix____Love_coffee_and_chocolate_The_Mocha_Boost_Protein_Ba-removebg-preview-split.png" alt="" />
             </motion.div>
 
 
@@ -112,7 +112,7 @@ const DesktopLayout = () => {
                 transition={{ duration: 1.5, ease: "easeInOut" }}
                 className="absolute"
             >
-                <img src="/src/Images/Spice_Up_Your_Snack_Game___️Love_bold__fiery_flavors_Say_hello_to_FitFeast_Peri-Peri_Protein_Ch-removebg-preview-split.png" alt="" />
+                <img src="/public/Images/Spice_Up_Your_Snack_Game___️Love_bold__fiery_flavors_Say_hello_to_FitFeast_Peri-Peri_Protein_Ch-removebg-preview-split.png" alt="" />
             </motion.div>
 
             <AnimatePresence>
