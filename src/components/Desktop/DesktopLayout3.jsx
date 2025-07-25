@@ -30,73 +30,62 @@ const DesktopLayout3 = () => {
                 <img src="/Images/image-2.png" alt="" />
             </div>
 
-            <div className="py-18">
-                <h1 className="text-4xl font-extrabold text-center">Honest Reviews</h1>
-                <div className="flex justify-center mt-20 gap-5 text-white">
-                    <div className="flex flex-col items-center p-12 h-[550px] w-[350px] rounded-2xl bg-[#28668F]">
-                        <div className="rounded-full w-[180px] h-[180px] overflow-hidden">
-                            <img
-                                className="w-full h-full object-cover"
-                                src="https://m.economictimes.com/thumb/msid-116959430,width-1200,height-900,resizemode-4,imgsize-24178/vikash-bahl.jpg"
-                                alt=""
-                            />
+
+            <div className="h-fit flex flex-col py-20 gap-20">
+                <div className="">
+                    <h1 className="text-4xl font-extrabold text-center">Honest Reviews</h1>
+                </div>
+                <div className="flex items-start justify-center font-sans gap-10">
+                    <div className="relative w-[300px] h-[200px] group cursor-pointer perspective">
+                        <div className="absolute inset-0 bg-blue-600 flex items-center justify-center transition-transform duration-700 group-hover:translate-y-0 translate-y-[0px] z-10">
+                            <img src="/Images/Screenshot 2025-07-25 222708.png" alt="" />
                         </div>
-                        <div className="mt-10 text-center">
-                            <p className="text-base">Bohot acha taste hai saare products ka. Aapki technical knowledge about food science is very impressive.</p>
-                            <p className="text-base mt-4 text-yellow-400 font-bold">Viraj Bahl (Shark) as quoted on ST India</p>
-                            <p className="text-base mt-4">Founder & Managing Director, VRB Consumer</p>
+                        <div className="absolute inset-0 bg-white p-5 flex flex-col items-center justify-center shadow-xl transition-transform duration-700 group-hover:translate-y-50 translate-y-[0px]">
+                            <h3 className="text-center text-xl font-semibold text-gray-700 mb-2">Viraj Bahl (Shark) as quoted on ST India</h3>
+                            <p className="text-center text-gray-600 text-lg">Bohot acha taste hai saare products ka. Aapki technical knowledge about food science is very impressive.</p>
                         </div>
                     </div>
-                    <div className="flex flex-col items-center p-12 h-[510px] w-[350px] rounded-2xl bg-[#28668F]">
-                        <div className="rounded-full w-[180px] h-[180px] overflow-hidden">
-                            <img
-                                className="w-full h-full object-cover"
-                                src="https://fitfeast.in/cdn/shop/files/7_185a4df0-d233-4496-bc77-b8872ee73496.png?v=1733815115"
-                                alt=""
-                            />
+                    <div className="relative w-[300px] h-[200px] group cursor-pointer perspective">
+
+                        <div className="absolute inset-0 bg-blue-600 flex items-center justify-center transition-transform duration-700 group-hover:translate-y-0 translate-y-[0px] z-10">
+                            <img src="/Images/Screenshot 2025-07-25 223358.png" alt="" />
                         </div>
-                        <div className="mt-10 text-center">
-                            <p className="text-base">Finally, chips I don't feel bad about eating! The Peri Peri flavor is amazing, and it's hard to believe they're baked and high in protein.</p>
-                            <p className="text-base mt-4 text-yellow-400 font-bold">Nikhil Singh</p>
-                            <p className="text-base mt-4">(Verified Buyer)</p>
+
+                        <div className="absolute inset-0 bg-white p-5 flex flex-col items-center justify-center shadow-xl transition-transform duration-700 group-hover:translate-y-50 translate-y-[0px]">
+                            <h3 className="text-center text-xl font-semibold text-gray-700 mb-2">Nikhil Singh</h3>
+                            <p className="text-center text-gray-600 text-lg">Finally, chips I don’t feel bad about eating! The Peri Peri flavor is amazing, and it’s hard to believe they’re baked and high in protein.</p>
                         </div>
                     </div>
-                    <div className="flex flex-col items-center p-12 h-[520px] w-[350px] rounded-2xl bg-[#28668F]">
-                        <div className="rounded-full w-[180px] h-[180px] overflow-hidden">
-                            <img
-                                className="w-full h-full object-cover"
-                                src="https://fitfeast.in/cdn/shop/files/Anupam_Photo.png?v=1741760560"
-                                alt=""
-                            />
+                    <div className="relative w-[300px] h-[200px] group cursor-pointer perspective">
+
+                        <div className="absolute inset-0 bg-blue-600 flex items-center justify-center transition-transform duration-700 group-hover:translate-y-0 translate-y-[0px] z-10">
+                            <img src="/Images/Screenshot 2025-07-25 223420.png" alt="" />
                         </div>
-                        <div className="mt-10 text-center">
-                            <p className="text-base">These are good. Protein content is impressive. Products are far better than other brands out there. </p>
-                            <p className="text-base mt-4 text-yellow-400 font-bold">Anupam Mittal (Shark) as quoted on ST India</p>
-                            <p className="text-base mt-4">Founder & CEO @ People Group</p>
+
+                        <div className="absolute inset-0 bg-white p-5 flex flex-col items-center justify-center shadow-xl transition-transform duration-700 group-hover:translate-y-50 translate-y-[0px]">
+                            <h3 className="text-center text-xl font-semibold text-gray-700 mb-2">Anupam Mittal (Shark) as quoted on ST India</h3>
+                            <p className="text-center text-gray-600 text-lg">These are good. Protein content is impressive. Products are far better than other brands out there.</p>
                         </div>
                     </div>
-                    <div className="flex flex-col items-center p-12 h-[490px] w-[350px] rounded-2xl bg-[#28668F]">
-                        <div className="rounded-full w-[180px] h-[180px] overflow-hidden">
-                            <img
-                                className="w-full h-full object-cover"
-                                src="https://fitfeast.in/cdn/shop/files/1593112002442.webp?v=1713356899"
-                                alt=""
-                            />
+                    <div className="relative w-[300px] h-[200px] group cursor-pointer perspective">
+
+                        <div className="absolute inset-0 bg-blue-600 flex items-center justify-center transition-transform duration-700 group-hover:translate-y-0 translate-y-[0px] z-10">
+                            <img src="/Images/Screenshot 2025-07-25 223434.png" alt="" />
                         </div>
-                        <div className="mt-10 text-center">
-                            <p className="text-base">As a dietician, I appreciate FitFeast's honesty and quality – a brand I trust and recommend.</p>
-                            <p className="text-base mt-4 text-yellow-400 font-bold">Dr. Yashodha</p>
-                            <p className="text-base mt-4">(Certified Dietician, 20y of Exp)</p>
+
+                        <div className="absolute inset-0 bg-white p-5 flex flex-col items-center justify-center shadow-xl transition-transform duration-700 group-hover:translate-y-50 translate-y-[0px]">
+                            <h3 className="text-center text-xl font-semibold text-gray-700 mb-2">Dr. Yashodha</h3>
+                            <p className="text-center text-gray-600 text-lg">As a dietician, I appreciate FitFeast's honesty and quality – a brand I trust and recommend.</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="flex items-center justify-center gap-5 bg-amber-50">
+            <div className="flex items-center mt-50 justify-center gap-6 bg-amber-50">
 
-                <div className="flex items-center gap-3 w-64">
+                <div className="flex items-center w-64 gap-3">
                     <div className="w-[65px] flex items-center justify-center rounded-full bg-[#1B2A47]">
-                        <img src="https://fitfeast.in/cdn/shop/files/rupee-1.png?v=1713354211" alt="Cash on Delivery"/>
+                        <img src="https://fitfeast.in/cdn/shop/files/rupee-1.png?v=1713354211" alt="Cash on Delivery" />
                     </div>
                     <div>
                         <p className="text-lg font-bold">Cash on Delivery</p>
@@ -106,7 +95,7 @@ const DesktopLayout3 = () => {
 
                 <div className="flex items-center gap-3 w-64">
                     <div className="w-[65px] flex items-center justify-center rounded-full bg-[#1B2A47]">
-                        <img src="https://fitfeast.in/cdn/shop/files/truck-1.png?v=1713354212" alt="Secure Payment"/>
+                        <img src="https://fitfeast.in/cdn/shop/files/truck-1.png?v=1713354212" alt="Secure Payment" />
                     </div>
                     <div>
                         <p className="text-lg font-bold">Secure Payment</p>
@@ -116,7 +105,7 @@ const DesktopLayout3 = () => {
 
                 <div className="flex items-center gap-3 w-64">
                     <div className="w-[65px] flex items-center justify-center rounded-full bg-[#1B2A47]">
-                        <img src="https://fitfeast.in/cdn/shop/files/rupee-1.png?v=1713354211" alt="Exclusive Discount"/>
+                        <img src="https://fitfeast.in/cdn/shop/files/rupee-1.png?v=1713354211" alt="Exclusive Discount" />
                     </div>
                     <div>
                         <p className="text-lg font-bold">Exclusive Discount</p>
@@ -126,7 +115,7 @@ const DesktopLayout3 = () => {
 
                 <div className="flex items-center gap-3 w-64">
                     <div className="w-[65px] flex items-center justify-center rounded-full bg-[#1B2A47]">
-                        <img src="https://fitfeast.in/cdn/shop/files/truck-1.png?v=1713354212" alt="Fast Delivery"/>
+                        <img src="https://fitfeast.in/cdn/shop/files/truck-1.png?v=1713354212" alt="Fast Delivery" />
                     </div>
                     <div>
                         <p className="text-lg font-bold">Fast Delivery</p>

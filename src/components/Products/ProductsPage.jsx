@@ -170,7 +170,7 @@ const ProductsPage = () => {
                 <motion.div ref={horizontalRef} style={{ x: scrollX }} className="flex items-center flex-nowrap gap-10 min-h-screen w-max px-10">
 
                     <div className="font-bold flex flex-col items-start justify-center min-h-screen
-                    p-10 ml-50 text-9xl font-[Antonio]">
+                    p-10 ml-58 text-9xl font-[Antonio]">
                         <div className="flex flex-col items-center gap-2 -tracking-normal text-[#523122] font-bold">
                             <h1 className="">We Have 8</h1>
                             <h1 className="bg-[#A26833] text-[#FAEADE] p-3 border-4 border-[#FAEADE] -rotate-3">Freaking</h1>
@@ -181,7 +181,7 @@ const ProductsPage = () => {
                     {productData.map((product) => (
                         <Link to={`/product${product.id}`} key={product.id}>
                             <motion.div
-                                className={`relative w-[650px] h-[500px] ${product.color} rounded-xl shadow-xl`}
+                                className={`relative w-[650px] h-[500px] ${product.color} rounded-xl shadow-xl -rotate-6`}
                                 initial={{ opacity: 0, scale: 0.8 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 viewport={{ once: true }}

@@ -1,55 +1,32 @@
-import React, { useRef } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
-motion
-const DesktopLayoutSticky = () => {
-    const sectionRef = useRef(null);
-    const { scrollYProgress } = useScroll({
-        target: sectionRef,
-        offset: ["start start", "end start"]
-    });
+import React from 'react';
+import './DesktopLayout2.css';
 
+const socialLinks = [
+    { label: 'Trans Fat Free', colors: ['before:bg-[#365492]', 'after:bg-[#4a69ad]'] },
+    { label: 'Cholesterol Free', colors: ['before:bg-[#097aa5]', 'after:bg-[#53b9e0]'] },
+    { label: 'Gluten Free', colors: ['before:bg-[#b33a2b]', 'after:bg-[#e66a5a]'] },
+    { label: 'Crafted with Care', colors: ['before:bg-[#d81c3f]', 'after:bg-[#e46880]'] },
+];
 
-    const opacity1 = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
-    const opacity2 = useTransform(scrollYProgress, [0.2, 0.3], [0, 1]);
-    const opacity3 = useTransform(scrollYProgress, [0.4, 0.5], [0, 1]);
-    const opacity4 = useTransform(scrollYProgress, [0.6, 0.7], [0, 1]);
-
-
+const DesktopLayout2 = () => {
     return (
-        <section ref={sectionRef} className="h-[400vh] relative bg-[#1B2A47]">
-            <div className="sticky top-0 h-screen flex items-center justify-center">
-                <div className="flex flex-col text-8xl uppercase font-[Antonio] font-bold text-center gap-10">
-                    <motion.h1
-                        style={{ opacity: opacity1, scaleX: scrollYProgress }}
-                        className="origin-center bg-[#C88E64] text-[#FAEADE] border-4 border-[#FAEADE] p-4 rotate-3"
-                    >
-                        Trans Fat Free
-                    </motion.h1>
-
-                    <motion.h1
-                        style={{ opacity: opacity2, scaleX: scrollYProgress }}
-                        className="origin-center bg-[#DBCEC3] text-[#2C2C2D] border-4 border-[#DBCEC3] p-4 -rotate-3"
-                    >
-                        Cholesterol Free
-                    </motion.h1>
-
-                    <motion.h1
-                        style={{ opacity: opacity3, scaleX: scrollYProgress }}
-                        className="origin-center bg-[#7F3B2D] text-[#FAEADE] border-4 border-[#DBCEC3] p-4 rotate-3"
-                    >
-                        Gluten Free
-                    </motion.h1>
-
-                    <motion.h1
-                        style={{ opacity: opacity4, scaleX: scrollYProgress }}
-                        className="origin-center bg-[#FED775] text-[#2C2C2D] border-4 border-[#DBCEC3] p-4 -rotate-3"
-                    >
-                        Crafted with Care
-                    </motion.h1>
-                </div>
-            </div>
-        </section>
+        <div className="min-h-screen bg-[#EAC8A6] flex items-center justify-center font-['Roboto_Condensed']">
+            <ul className="flex flex-col items-center gap-4">
+                {socialLinks.map((link, index) => (
+                    <li key={index} className="relative group">
+                        <a
+                            href="#"
+                            className={`w-[1000px] h-[120px] bg-[#F3E4D4] text-left pl-5 flex items-center transform rotate-[-20deg] skew-y-[22deg] shadow-[-20px_20px_10px_rgba(0,0,0,0.5)] relative transition-all duration-500 before-content after-content ${link.colors.join(' ')}`}
+                        >
+                            <span className="left-75 absolute font-bold text-[#6b3535] text-7xl transition-colors duration-500">
+                                {link.label}
+                            </span>
+                        </a>
+                    </li>
+                ))}
+            </ul>
+        </div>
     );
 };
 
-export default DesktopLayoutSticky;
+export default DesktopLayout2;
