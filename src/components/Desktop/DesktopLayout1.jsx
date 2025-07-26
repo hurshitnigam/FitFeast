@@ -162,7 +162,7 @@ const DesktopLayout = () => {
 
             <motion.div
                 initial={{ x: "28rem", y: "20rem", scale: 0.5 }}
-                animate={{ x: "50rem", y: "-6rem", opacity: 1, rotate: 348 }}
+                animate={{ x: "48rem", y: "-5rem", opacity: 1, rotate: 348 }}
                 transition={{ duration: 2, ease: "easeInOut" }}
                 className="absolute scale-150"
             >
