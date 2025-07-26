@@ -181,22 +181,23 @@ const ProductsPage = () => {
                     {productData.map((product) => (
                         <Link to={`/product${product.id}`} key={product.id}>
                             <motion.div
-                                className={`relative w-[650px] h-[500px] ${product.color} rounded-xl shadow-xl -rotate-6`}
                                 initial={{ opacity: 0, scale: 0.8 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.6, ease: "easeOut" }}
                             >
-                                <ProductImage
-                                    src={product.image}
-                                    alt={product.name}
-                                    imgWidth={product.imgWidth}
-                                    imgHeight={product.imgHeight}
-                                    imagePosition={product.imagePosition}
-                                />
-                                <h2 className={`uppercase rounded-3xl absolute ${product.textPosition} ${product.textBgColor} ${product.textColor} ${product.textPadding} text-4xl font-medium`}>
-                                    {product.name}
-                                </h2>
+                                <div className={`relative w-[650px] h-[500px] outline-[10px] outline-[#0009] outline-offset-[-10px] transition-all duration-300 hover:outline-[8px] hover:outline-[#A26833] hover:outline-offset-[10px] ${product.color} -rotate-4 hover:rotate-6 rounded-xl shadow-xl`}>
+                                    <ProductImage
+                                        src={product.image}
+                                        alt={product.name}
+                                        imgWidth={product.imgWidth}
+                                        imgHeight={product.imgHeight}
+                                        imagePosition={product.imagePosition}
+                                    />
+                                    <h2 className={`uppercase rounded-3xl absolute ${product.textPosition} ${product.textBgColor} ${product.textColor} ${product.textPadding} text-4xl font-medium`}>
+                                        {product.name}
+                                    </h2>
+                                </div>
                             </motion.div>
                         </Link>
                     ))}

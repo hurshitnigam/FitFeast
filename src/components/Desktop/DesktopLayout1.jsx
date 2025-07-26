@@ -132,8 +132,8 @@ const DesktopLayout = () => {
 
             <motion.div
                 initial={{ x: "28rem", y: "-20rem", scale: 0.5 }}
-                animate={{ x: "0rem", y: "8rem", rotate: 45 }}
-                transition={{ duration: 1.5, ease: "easeInOut" }}
+                animate={{ x: "0rem", y: "8rem", rotate: 395 }}
+                transition={{ duration: 2, ease: "easeInOut" }}
                 className="absolute scale-135"
             >
                 <img className="" src="/Images/Nutty_Brownie___A_Dessert_You_Can_Feel_Good_About___Love_brownies_but_want_something_healthier_-removebg-preview-split.png" alt="" />
@@ -142,8 +142,8 @@ const DesktopLayout = () => {
 
             <motion.div
                 initial={{ x: "28rem", y: "20rem", scale: 0.5 }}
-                animate={{ x: "4rem", y: "-5rem", opacity: 1, rotate: 15 }}
-                transition={{ duration: 1.5, ease: "easeInOut" }}
+                animate={{ x: "4rem", y: "-5rem", opacity: 1, rotate: 375 }}
+                transition={{ duration: 2, ease: "easeInOut" }}
                 className="absolute scale-150"
             >
                 <img src="/Images/Snack_Smarter_with_FitFeast___Looking_for_a_guilt-free_snack_Meet_FitFeast_Cream___Onion_Protei-removebg-preview-split.png" alt="" />
@@ -152,8 +152,8 @@ const DesktopLayout = () => {
 
             <motion.div
                 initial={{ x: "28rem", y: "-20rem", scale: 0.5 }}
-                animate={{ x: "50rem", y: "8rem", rotate: -45 }}
-                transition={{ duration: 1.5, ease: "easeInOut" }}
+                animate={{ x: "50rem", y: "8rem", rotate: 315 }}
+                transition={{ duration: 2, ease: "easeInOut" }}
                 className="absolute scale-135"
             >
                 <img src="/Images/Mocha_Boost___Your_Coffee-Chocolate_Fix____Love_coffee_and_chocolate_The_Mocha_Boost_Protein_Ba-removebg-preview-split.png" alt="" />
@@ -162,8 +162,8 @@ const DesktopLayout = () => {
 
             <motion.div
                 initial={{ x: "28rem", y: "20rem", scale: 0.5 }}
-                animate={{ x: "50rem", y: "-6rem", opacity: 1, rotate: -12 }}
-                transition={{ duration: 1.5, ease: "easeInOut" }}
+                animate={{ x: "50rem", y: "-6rem", opacity: 1, rotate: 348 }}
+                transition={{ duration: 2, ease: "easeInOut" }}
                 className="absolute scale-150"
             >
                 <img src="/Images/Spice_Up_Your_Snack_Game___️Love_bold__fiery_flavors_Say_hello_to_FitFeast_Peri-Peri_Protein_Ch-removebg-preview-split.png" alt="" />
